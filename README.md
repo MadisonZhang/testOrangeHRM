@@ -6,13 +6,15 @@ This repository contains automated test cases for the Orange HRM demo site, focu
 
 1. **User Authentication**: This test case verifies successful login using provided username and password credentials, ensuring secure access to the HRM system.
 
-2. **Recruitment and User Management**: This test case covers the end-to-end process of recruitment, user creation, and user role management, ensuring that these HRM functionalities function as intended.
+2. **Recruitment and User Management**: This test case covers the end-to-end process of recruitment, user creation, user role management, and new recruit personal information creation, ensuring that these HRM functionalities function as intended.
+
+3. **Leave Management**: This test case validates the process of assigning leave to a new recruit, ensuring that leave requests are correctly processed and scheduled.
 
 ## Technologies Used
 
-- Test Automation Framework: [Specify the framework you used]
+- Test Automation Framework: Selenium and PyTest
 - Programming Language: Python
-- Testing Tool: [Specify the testing tool if applicable]
+- Testing Tool: WebDriver
 
 ## Video of running test suite
 https://github.com/MadisonZhang/testOrangeHRM/assets/132073464/9598aed0-c6af-434c-8f60-0609e1cf9842
